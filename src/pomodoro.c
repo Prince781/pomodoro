@@ -101,7 +101,7 @@ void print_msg(char *buf, int buflen, const char *msg)
 
 void print_help(const char *prog)
 {
-	printf("usage %s:\n", prog);
+	printf("Usage: %s\n", prog);
 	printf("\t--help | -h\t\tShow this message\n");
 	printf("\t--length | -l\t\tSpecify pomodoro length\n");
 	printf("\t--break | -b\t\tSpecify break length\n");
