@@ -34,6 +34,7 @@ int main(int argc, char *argv[])
 		switch (c) {
 			case 'h':
 				print_help(argv[0]);
+				_exit(1);
 				break;
 			case 'l':
 				p_length = (unsigned) atoi(optarg) * 60;
